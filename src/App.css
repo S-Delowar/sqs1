@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+/*-------------------------------------------------
+Inner Banner
+---------------------------------------------------*/
+#innerBanner{
+	padding: 138px 0 64px;
+	text-align:center;
+	background: #278bf2;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#innerBanner h2{
+	color:#fff;
+	text-align:center;
+	font-weight:normal;
+	font-size:18px;
+	margin:0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#innerBanner h2 span{
+	color: #00e5a1;
+	font-weight:bold;
+	font-size:38px;
+	text-align:center;
+}
+.svgImg{
+	
+}
+.svgImg img{
+	width:120px;
+}
+/* Sections Header
+--------------------------------*/
+.section-header {
+    margin-bottom: 30px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .section-header h2 {
+    font-size: 32px;
+    color: #071e33;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+    /* display: inline-block; */
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .section-header h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 62px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    border-top: #596bf3 solid 2px;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
   }
-}
+  
+  .section-header p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #333;
+  }
+  

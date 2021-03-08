@@ -1,0 +1,64 @@
+#team {
+    background: #fff;
+    padding: 60px 0 0 0;
+  }
+  
+  #team .member {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #team .member .pic {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  #team .member .pic img {
+    max-width: 100%;
+    padding: 20px 20px 0;
+  }
+  
+  #team .member .details {
+    background: #fff;
+    color: #071e33;
+    padding: 15px 0;
+    border-radius: 0 0 3px 3px;
+  }
+  
+  #team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+  }
+  
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  
+  #team .member .social {
+    margin-top: 5px;
+    padding: 6px;
+    text-align: center;
+  }
+  
+  #team .member .social a {
+    color: #07cc91;
+    margin: 2px 6px;
+    border: 1px solid #07cc91;
+    width: 42px;
+    display: inline-block;
+    /* opacity: .4; */
+    padding: 4px;
+  }
+  #team .member .social a:hover{
+    color: #081e5b;
+    margin: 2px 6px;
+    border: 1px solid #081e5b;
+    opacity: 1;
+  }
+  #team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+  }

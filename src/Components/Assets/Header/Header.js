@@ -18,7 +18,7 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   });
-  let navbarClasses = ["navbar"];
+  let navbarClasses = ["navbar", "container"];
   if (scrolled) {
     navbarClasses.push("scrolled");
   }
@@ -26,11 +26,49 @@ const Header = () => {
   return (
     <div>
       {/* new navbar */}
-      <header className={navbarClasses.join(" ")}>
-        <div className="logo">Logo</div>
-        <nav className="navigation">Home</nav>
-        <nav className="">Home</nav>
-        <nav className="">Home</nav>
+
+      {/* <div className=''>
+        <header className={navbarClasses.join(" ")}>
+          <Link to="/" className="navigation">
+            <div className="logo">Logo</div>
+          </Link>
+          <Link to="/" className="navigation">
+            <nav >Home</nav>
+          </Link>
+          <Link to="/about" className="navigation">
+            <nav>About Us</nav>
+          </Link>
+          <Link to="/services" className="navigation">
+            <nav>Services</nav>
+          </Link>
+          <Link to="/contact" className="navigation">
+            <nav>Contact</nav>
+          </Link>
+        </header>
+      </div> */}
+
+      <header className={navbarClasses.join(" ")} c>
+        <div className="logo">
+          <h1>Logo</h1>
+          {/* <img src={Logo} alt="Logo" title="Logo" /> */}
+        </div>
+
+        <nav className="navigation">
+          <ul>
+            <li>
+              <Link to="/" className="nav-item">Home</Link>
+            </li>
+            <li>
+              <Link to="/about" className="nav-item">About</Link>
+            </li>
+            <li>
+              <Link to="/services" className="nav-item">Services</Link>
+            </li>
+            <li>
+              <Link to="/contact" className="nav-item">Contact</Link>
+            </li>
+          </ul>
+        </nav>
       </header>
     </div>
   );

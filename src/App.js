@@ -26,7 +26,6 @@ function App() {
             <Services></Services>
           </Route>
           <Route path="/">
-            <About></About>
             <Home></Home>
           </Route>
         </Switch>

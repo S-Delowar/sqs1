@@ -63,3 +63,33 @@ Inner Banner
     color: #333;
   }
   
+/* back-to-top */
+  .back-to-top {
+  position: fixed;
+  display: none;
+  background: #49a3ff;
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+.back-to-top:focus {
+  background: #596bf3;
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: #278bf2;
+  color: #fff;
+}

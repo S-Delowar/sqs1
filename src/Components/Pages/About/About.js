@@ -3,6 +3,7 @@ import "./About.css";
 import OurTeam from "../../Assets/OurTeam/OurTeam";
 import OurClients from "../../Assets/OurClients/OurClients";
 import AboutUsBanner from "../../Assets/ABoutUsBanner/AboutUsBanner";
+import CallToAction from "../../Assets/CallToAction/CallToAction";
 
 const About = () => {
   return (
@@ -26,7 +27,9 @@ const About = () => {
       <section className="clients-section">
         <OurClients></OurClients>
       </section>
-      <section></section>
+      <section>
+      <CallToAction></CallToAction>
+      </section>
     </div>
   );
 };

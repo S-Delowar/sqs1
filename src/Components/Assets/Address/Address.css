@@ -1,0 +1,11 @@
+.contact-address p {
+    margin-left: 10px;
+}
+.address, .phone, .email {
+    font-weight: 700;
+    color: rgb(58, 57, 57);
+}
+.address-icon {
+    color: #07cc91;
+}
+  

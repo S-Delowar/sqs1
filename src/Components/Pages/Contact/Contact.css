@@ -1,0 +1,20 @@
+/* Contact Section
+--------------------------------*/
+#contact {
+    padding: 60px 0;
+  }
+  
+  #contact .contact-info {
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #contact .contact-info i {
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 0;
+    color: #07cc91;
+    float: left;
+  }
+  

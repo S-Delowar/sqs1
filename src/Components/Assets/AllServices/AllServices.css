@@ -6,8 +6,14 @@
 .card {
     align-items: center;
     justify-content:center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 20px 10px 20px 10px;
 }
-
+.card-body h4 {
+    color: #444;
+    font-weight: 700;
+}
+.service-icon {
+    font-size: 60px;
+    color: #278bf2;
+}
   

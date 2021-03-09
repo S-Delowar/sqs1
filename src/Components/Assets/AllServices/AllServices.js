@@ -1,7 +1,9 @@
 import React from "react";
 import "./AllServices.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faCreativeCommonsSamplingPlus, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faChartBar, faImage, faMap } from "@fortawesome/free-regular-svg-icons";
+import { faChartPie, faChessQueen } from "@fortawesome/free-solid-svg-icons";
 
 const AllServices = () => {
   return (
@@ -11,9 +13,9 @@ const AllServices = () => {
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div className="card h-100 ">
-                <FontAwesomeIcon icon={faFacebook} className="service-icon" />
+                <FontAwesomeIcon icon={faChartBar} className="service-icon" />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h4 className="card-title">Marketing</h4>
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
@@ -24,9 +26,9 @@ const AllServices = () => {
             </div>
             <div className="col">
               <div className="card h-100 ">
-                <FontAwesomeIcon icon={faFacebook} className="service-icon" />
+                <FontAwesomeIcon icon={faImage} className="service-icon" />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h4 className="card-title">Consulting</h4>
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
@@ -37,9 +39,9 @@ const AllServices = () => {
             </div>
             <div className="col">
               <div className="card h-100 ">
-                <FontAwesomeIcon icon={faFacebook} className="service-icon" />
+                <FontAwesomeIcon icon={faChessQueen} className="service-icon" />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h4 className="card-title">Strategy</h4>
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
@@ -50,9 +52,9 @@ const AllServices = () => {
             </div>
             <div className="col">
               <div className="card h-100 ">
-                <FontAwesomeIcon icon={faFacebook} className="service-icon" />
+                <FontAwesomeIcon icon={faMap} className="service-icon" />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h4 className="card-title">Quality</h4>
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
@@ -63,9 +65,9 @@ const AllServices = () => {
             </div>
             <div className="col">
               <div className="card h-100 ">
-                <FontAwesomeIcon icon={faFacebook} className="service-icon" />
+                <FontAwesomeIcon icon={faChartPie} className="service-icon" />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h4 className="card-title">Analysis</h4>
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
@@ -76,9 +78,9 @@ const AllServices = () => {
             </div>
             <div className="col">
               <div className="card h-100 ">
-                <FontAwesomeIcon icon={faFacebook} className="service-icon" />
+                <FontAwesomeIcon icon={faCreativeCommonsSamplingPlus} className="service-icon" />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h4 className="card-title">Creative</h4>
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit

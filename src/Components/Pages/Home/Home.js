@@ -1,9 +1,12 @@
 import React from 'react';
+import CallToAction from '../../Assets/CallToAction/CallToAction';
 
 const Home = () => {
     return (
         <div>
-            <img src="../../../Images/team/team1.jpg" alt=""/>
+            <section>
+            <CallToAction></CallToAction>
+            </section>
         </div>
     );
 };

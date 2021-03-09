@@ -12,6 +12,13 @@ import About from './Components/Pages/About/About';
 import Services from './Components/Pages/Services/Services';
 import GoogleMap from './Components/Assets/GoogleMap/GoogleMap';
 import Header from './Components/Assets/Header/Header';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import Footer from './Components/Assets/Footer/Footer';
+import CallToAction from './Components/Assets/CallToAction/CallToAction';
+import Contact from './Components/Pages/Contact/Contact';
+import ContactForm from './Components/Assets/ContactForm/ContactForm';
+
 
 function App() {
   return (
@@ -25,11 +32,17 @@ function App() {
           <Route path="/services">
             <Services></Services>
           </Route>
+          <Route path="/contact">
+            <Contact></Contact>
+          </Route>
           <Route path="/">
+            <ContactForm></ContactForm>
             <Home></Home>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
+     
     </div>
   );
 }

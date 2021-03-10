@@ -4,6 +4,7 @@ import OurTeam from "../../Assets/OurTeam/OurTeam";
 import OurClients from "../../Assets/OurClients/OurClients";
 import AboutUsBanner from "../../Assets/ABoutUsBanner/AboutUsBanner";
 import CallToAction from "../../Assets/CallToAction/CallToAction";
+import Testimonials from "../../Assets/Testimonials/Testimonials";
 
 const About = () => {
   return (
@@ -26,6 +27,10 @@ const About = () => {
       </section>
       <section className="clients-section">
         <OurClients></OurClients>
+      </section>
+     
+      <section>
+        <Testimonials></Testimonials>
       </section>
       <section>
       <CallToAction></CallToAction>

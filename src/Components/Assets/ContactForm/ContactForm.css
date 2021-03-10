@@ -1,5 +1,5 @@
 .contactForm{
-    justify-content: end;
+    
 }
 .contactForm input, textarea {
     display: block;
@@ -8,7 +8,7 @@
     padding-left: 15px;
     border-radius: 0px; 
     border: 1px solid lightgray;
-    align-self: flex-end;
+    margin-right: 0px;
 }
 .contactForm input {
     height: 50px;
@@ -17,6 +17,8 @@
     height: 200px
 }
 .submit-button {
+    font-size: 20px;
+    font-weight: 500;
     height: 30px;
     width: 60px;
     background: #07cc91;
@@ -30,10 +32,11 @@
   
  .submit-button:hover {
     background: #0299c4;
+    border: none;
   }
  #send-btn {
      width: 150px;
-     align-self: flex-end;
+     
  }
 .error {
     color: red;

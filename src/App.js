@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './main';
 import {
   BrowserRouter as Router,
   Switch,
@@ -36,7 +37,6 @@ function App() {
             <Contact></Contact>
           </Route>
           <Route path="/">
-            <ContactForm></ContactForm>
             <Home></Home>
           </Route>
         </Switch>

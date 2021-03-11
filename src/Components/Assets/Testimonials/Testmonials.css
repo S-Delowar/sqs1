@@ -1,14 +1,14 @@
 #testimonials {
     padding: 60px 0;
   }
-  
+/*   
   #testimonials .testimonial-item {
     box-sizing: content-box;
     padding: 30px 30px 0 30px;
     margin: 30px 15px;
     text-align: center;
     min-height: 250px;
-    /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08); */
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   }
   
   @media (max-width: 767px) {
@@ -97,4 +97,23 @@
       padding: 0;
       list-style:none;
       color:red;
+  } */
+
+  .testimonial-card .card {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .card .speech {
+    border: 1px solid #07cc91;
+    border-radius: 15px 15px 0 15px ;
+    padding: 30px;
+  }
+  .card .name {
+    font-weight: 700;
+    color: rgb(102, 100, 100);
+  }
+  .card .title {
+    font-weight: 400;
+    color: rgb(112, 110, 110);
   }

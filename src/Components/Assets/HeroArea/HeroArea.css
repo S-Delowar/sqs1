@@ -1,31 +1,26 @@
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   background: url(../../../Images/banner/banner-bg.png) center bottom no-repeat;
   background-size: cover;
   /* padding: 200px 0 120px 0; */
   top: 0px;
   align-items: center;
-  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 100px;
 
 }
 #hero .hero-banner img {
   width: 100%;
   /* height: ; */
 }
-#hero .hero-content {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 14%;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
-}
 
+.hero-content {
+color: #fff;
+text-align: left;
+padding-left: 100px;
+}
 #hero .hero-content h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -48,65 +43,38 @@
   }
 }
 
-#hero .hero-content .btn-banner,
-#hero .hero-content .btn-projects {
+ .btn-banner {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
-  display: inline-block;
   padding: 10px 32px;
-  border-radius: 2px;
   transition: 0.5s;
   margin: 0;
   color: #fff;
-}
-
-#hero .hero-content .btn-banner {
   background: #07cc91;
   border: 2px solid #07cc91;
+  width: 200px;
   border-radius: 30px;
-  text-decoration: none;
 }
-
-#hero .hero-content .btn-banner:hover {
+.btn-banner:hover {
   background: none;
-  color: #07cc91;
-}
+  color: #47f7c2;
+} 
+/* CArousel */
 
-#hero .hero-content .btn-projects {
-  background: #596bf3;
-  border: 2px solid #596bf3;
+.carousel-bg{
+  background-color: transparent ;
 }
-
-#hero .hero-content .btn-projects:hover {
-  background: none;
-  color: #596bf3;
+.nav-bg{
+  background-color: white;
 }
-
-#hero #hero-carousel {
-  z-index: 8;
+.carousel-item{
+  text-align: center;
 }
-
-#hero #hero-carousel::before {
-  content: "";
-  background-color: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 7;
+.carousel-indicators .active{
+  background-color: orange;
 }
-
-#hero #hero-carousel .item {
-  width: 100%;
-  height: 60vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
+.carousel-indicators .inactive{
+  background-color: gray;
 }

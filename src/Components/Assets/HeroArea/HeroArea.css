@@ -4,10 +4,9 @@
   position: relative;
   background: url(../../../Images/banner/banner-bg.png) center bottom no-repeat;
   background-size: cover;
-  /* padding: 200px 0 120px 0; */
-  top: 0px;
+  padding: 200px 0 0px 0;
+  /* top: 0px; */
   align-items: center;
-  padding-bottom: 80px;
   padding-top: 100px;
 
 }
@@ -19,7 +18,6 @@
 .hero-content {
 color: #fff;
 text-align: left;
-padding-left: 100px;
 }
 #hero .hero-content h2 {
   color: #fff;

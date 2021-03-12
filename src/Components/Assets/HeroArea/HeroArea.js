@@ -44,7 +44,7 @@ const HeroArea = () => {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row align-items-center">
-                  <div class="col-md-7 hero-content">
+                  <div class="col-md-6 hero-content">
                     <h3>Welcome To </h3>
                     <h1>Integrated Quality Services</h1>
                     <p>
@@ -56,14 +56,14 @@ const HeroArea = () => {
                       <button className="btn btn-banner">Our Service</button>
                     </Link>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-6">
                     <img src={img1} class="d-block w-100" alt="..." />
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row align-items-center">
-                  <div class="col-md-7 hero-content">
+                  <div class="col-md-6 hero-content">
                     <h1>Macbook Pro</h1>
                     <p>
                       Contrary to popular belief, Lorem Ipsum is not simply
@@ -74,14 +74,14 @@ const HeroArea = () => {
                       <button className="btn btn-banner">Our Service</button>
                     </Link>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-6">
                     <img src={img1} class="d-block w-100" alt="..." />
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row align-items-center">
-                  <div class="col-md-7 hero-content">
+                  <div class="col-md-6 hero-content">
                     <h1>ASUS </h1>
                     <p>
                       Contrary to popular belief, Lorem Ipsum is not simply
@@ -92,7 +92,7 @@ const HeroArea = () => {
                       <button className="btn btn-banner">Our Service</button>
                     </Link>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-6">
                     <img src={img1} class="d-block w-100" alt="..." />
                   </div>
                 </div>

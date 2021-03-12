@@ -19,13 +19,15 @@ import Footer from './Components/Assets/Footer/Footer';
 import CallToAction from './Components/Assets/CallToAction/CallToAction';
 import Contact from './Components/Pages/Contact/Contact';
 import ContactForm from './Components/Assets/ContactForm/ContactForm';
+import Navbar from './Components/Assets/Navbar/Navbar';
 
 
 function App() {
   return (
     <div>
       <Router>
-        <Header></Header>
+        {/* <Header></Header> */}
+        <Navbar></Navbar>
         <Switch>
           <Route path="/about">
             <About></About>
@@ -36,7 +38,7 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
-          <Route path="/">
+          <Route path="/" exact>
             <Home></Home>
           </Route>
         </Switch>

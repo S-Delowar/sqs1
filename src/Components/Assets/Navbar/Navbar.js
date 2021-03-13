@@ -24,7 +24,8 @@ function Navbar() {
     }
   
     let style = {
-      backgroundColor: change ? "lightgray" : "transparent",
+      backgroundColor: change ? "#fff" : "transparent",
+      boxShadow:  change ? "2px 1px 1px #33333336" : "none",
       transition: "400ms ease",
       height: "80px",
       position: "fixed",
@@ -37,42 +38,42 @@ function Navbar() {
 
 
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
-  const [navbar, setNavbar] = useState(false); //1
+  // const [button, setButton] = useState(true);
+  // const [navbar, setNavbar] = useState(false); //1
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
-  useEffect(() => {
-    showButton();
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
-  window.addEventListener('resize', showButton);
+  // window.addEventListener('resize', showButton);
 
-  const changeBackground = () => {
-    if(window.scrollY >= 80) {
-        setNavbar(true);
-    } else {
-        setNavbar(false);
-    }
+//   const changeBackground = () => {
+//     if(window.scrollY >= 80) {
+//         setNavbar(true);
+//     } else {
+//         setNavbar(false);
+//     }
 
-}
+// }
 
-  window.addEventListener('scroll', changeBackground)
+//   window.addEventListener('scroll', changeBackground)
 
 
 
   return (
     <>
-      <nav>
+      <nav className="test">
         <div className='d-flex justify-content-center align-items-center fixed-top' style={style}>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img src={logo} alt=""/>
@@ -111,16 +112,6 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Contact
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
               </Link>
             </li>
           </ul>

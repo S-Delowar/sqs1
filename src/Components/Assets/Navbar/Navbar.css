@@ -1,45 +1,19 @@
-.navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    /* background-color: transparent; */
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-
-  .navbar .active {
-      background-color: blueviolet;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-  }
-  
   .navbar-logo img {
     /* color: #fff;
-    justify-self: start;
+    
     margin-left: 20px;
-    cursor: pointer;
+    
     text-decoration: none;
     font-size: 2rem;
     display: flex;
     align-items: center; */
-    width: 200px;
-    height: 80px;
+    cursor: pointer;
+    justify-self: start;
+    width: 150px;
+    height: 60px;
+    margin-top: 0;
+    margin-left: 0;
   }
-  
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
-  }
-  
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -50,13 +24,12 @@
     justify-content: end;
     margin-right: 2rem;
   }
-  
   .nav-item {
     height: 80px;
   }
   
   .nav-links {
-    color: #fff;
+    color: rgb(191, 209, 24);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -68,11 +41,7 @@
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
-  
-  .fa-bars {
-    color: #fff;
-  }
-  
+    
   .nav-links-mobile {
     display: none;
   }
@@ -135,12 +104,6 @@
       font-size: 1.8rem;
       cursor: pointer;
     }
-  
-    .fa-times {
-      color: #fff;
-      font-size: 2rem;
-    }
-  
     .nav-links-mobile {
       display: block;
       text-align: center;

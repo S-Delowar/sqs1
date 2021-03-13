@@ -6,6 +6,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../../Images/logo/logo-1.jpeg";
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
+import logo from '../../../Images/logo/IQS-Logo.png';
 
 const Header = () => {
   const [change, setChange] = useState(false);

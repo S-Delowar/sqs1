@@ -3,6 +3,10 @@ import React, { useState, useEffect } from 'react';
 // import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../../../Images/logo/IQS-Logo.png';
+
+
+
 function Navbar() {
 
     const [change, setChange] = useState(false);
@@ -71,8 +75,7 @@ function Navbar() {
       <nav>
         <div className='d-flex justify-content-center align-items-center fixed-top' style={style}>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
-            <i class='fab fa-typo3' />
+            <img src={logo} alt=""/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

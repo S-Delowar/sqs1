@@ -98,7 +98,7 @@ const HeroArea = () => {
                 </div>
               </div>
             </div>
-            <button
+            {/* <button
               class="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleIndicators"
@@ -121,7 +121,7 @@ const HeroArea = () => {
                 aria-hidden="true"
               ></span>
               <span class="visually-hidden">Next</span>
-            </button>
+            </button> */}
           </div>
           {/* <!--carousel ends--> */}
         </div>

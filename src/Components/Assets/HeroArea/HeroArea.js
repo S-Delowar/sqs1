@@ -10,9 +10,8 @@ const HeroArea = () => {
     <div>
       <section
         id="hero"
-        class="clearfix d-flex justify-content-center align-items-end"
       >
-        <div class="container">
+        <div class="container" id="hero-content-area">
           {/* carousel starts */}
           <div
             id="carouselExampleIndicators"

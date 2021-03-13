@@ -4,6 +4,7 @@ import CallToAction from "../../Assets/CallToAction/CallToAction";
 import Footer from "../../Assets/Footer/Footer";
 import GoogleMap from "../../Assets/GoogleMap/GoogleMap";
 import HeroArea from "../../Assets/HeroArea/HeroArea";
+import HeroTest from "../../Assets/HeroTest/HeroTest";
 import OurClients from "../../Assets/OurClients/OurClients";
 import Testimonials from "../../Assets/Testimonials/Testimonials";
 import WhatWeDo from "../../Assets/WhatWeDo/WhatWeDo";
@@ -11,6 +12,7 @@ import WhatWeDo from "../../Assets/WhatWeDo/WhatWeDo";
 const Home = () => {
   return (
     <div>
+{/* <HeroTest></HeroTest> */}
       <HeroArea></HeroArea>
       <div id="about" class="wow fadeInUp">
         <div class="container">

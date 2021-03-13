@@ -1,18 +1,15 @@
 #hero {
-  width: 100%;
-  height: 100vh;
-  position: relative;
   background: url(../../../Images/banner/banner-bg.png) center bottom no-repeat;
-  background-size: cover;
-  padding: 200px 0 0px 0;
-  /* top: 0px; */
-  align-items: center;
-  padding-top: 100px;
+    background-size: cover;
+    position: relative;
 
 }
-#hero .hero-banner img {
+#hero-content-area {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+/* #hero .hero-banner img {
   width: 100%;
-  /* height: ; */
 }
 
 .hero-content {
@@ -39,7 +36,7 @@ text-align: left;
     background: #ffffff00;
     padding: 15px;
   }
-}
+} */
 
  .btn-banner {
   font-family: "Raleway", sans-serif;

@@ -24,7 +24,7 @@ import Navbar from './Components/Assets/Navbar/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Router>
         {/* <Header></Header> */}
         <Navbar></Navbar>

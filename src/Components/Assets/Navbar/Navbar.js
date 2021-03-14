@@ -8,6 +8,9 @@ import logo from '../../../Images/logo/IQS-Logo.png';
 
 
 function Navbar() {
+   const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
     const [change, setChange] = useState(false);
     const changePosition = 100;
@@ -26,54 +29,24 @@ function Navbar() {
     let style = {
       backgroundColor: change ? "#fff" : "transparent",
       boxShadow:  change ? "2px 1px 1px #33333336" : "none",
+      color: change? "black" : "#fff",
       transition: "400ms ease",
       height: "80px",
       position: "fixed",
-      color:'tomato',
+      color: 'rgb(241, 64, 11)',
       right: 0,
       left: 0,
       top: 0,
     };
-  
 
-
-  const [click, setClick] = useState(false);
-  // const [button, setButton] = useState(true);
-  // const [navbar, setNavbar] = useState(false); //1
-
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false);
-  //   } else {
-  //     setButton(true);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   showButton();
-  // }, []);
-
-  // window.addEventListener('resize', showButton);
-
-//   const changeBackground = () => {
-//     if(window.scrollY >= 80) {
-//         setNavbar(true);
-//     } else {
-//         setNavbar(false);
-//     }
-
-// }
-
-//   window.addEventListener('scroll', changeBackground)
-
-
+    let navLinkColor = {
+      color: change? "black" : "#fff",
+      fontWeight: 500,
+    }
 
   return (
     <>
-      <nav className="test">
+      <nav>
         <div className='d-flex justify-content-center align-items-center fixed-top' style={style}>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img src={logo} alt=""/>
@@ -83,7 +56,7 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu} style={navLinkColor}>
                 Home
               </Link>
             </li>
@@ -92,6 +65,7 @@ function Navbar() {
                 to='/about'
                 className='nav-links'
                 onClick={closeMobileMenu}
+                style={navLinkColor}
               >
                 About Us
               </Link>
@@ -101,6 +75,7 @@ function Navbar() {
                 to='/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
+                style={navLinkColor}
               >
                 Services
               </Link>
@@ -110,12 +85,12 @@ function Navbar() {
                 to='/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
+                style={navLinkColor}
               >
                 Contact
               </Link>
             </li>
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
       </nav>
     </>

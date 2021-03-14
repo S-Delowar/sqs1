@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <section id="innerBanner">
-        <div class="inner-content">
+        <div className="inner-content">
           <h2>
             <span>Get In Touch</span>
             <br />
@@ -17,10 +17,9 @@ const Contact = () => {
           </h2>
         </div>
       </section>
-      {/* contact .... */}
-      <section id="contact" class="wow fadeInUp">
-        <div class="container">
-          <div class="section-header">
+      <section id="contact" className="wow fadeInUp">
+        <div className="container">
+          <div className="section-header">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
               quae porro consequatur aliquam, incidunt fugiat culpa esse aute
@@ -29,11 +28,11 @@ const Contact = () => {
             </p>
           </div>
 
-          <div class="row contact-info">
-            <div class="col-lg-5">
+          <div className="row contact-info">
+            <div className="col-lg-5">
              <Address></Address>
             </div>
-            <div class="col-lg-7">
+            <div className="col-lg-7">
               <ContactForm></ContactForm>
             </div>
           </div>

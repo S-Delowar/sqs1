@@ -8,14 +8,14 @@ import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 const AboutUsBanner = () => {
     return (
         <div>
-            <section id="about" class="wow fadeInUp">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 about-img">
+            <section id="about" className="wow fadeInUp">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 about-img">
               <img src={aboutImg} alt="" />
             </div>
 
-            <div class="col-lg-6 content">
+            <div className="col-lg-6 content">
               <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
               <h3>
                 Dolores quae porro consequatur aliquam, incidunt eius magni

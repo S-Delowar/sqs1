@@ -1,4 +1,5 @@
 import React from "react";
+import './Services.css';
 import AboutUsBanner from "../../Assets/ABoutUsBanner/AboutUsBanner";
 import AllServices from "../../Assets/AllServices/AllServices";
 import CallToAction from "../../Assets/CallToAction/CallToAction";
@@ -8,7 +9,7 @@ const Services = () => {
   return (
     <div>
       <section id="innerBanner">
-        <div class="inner-content">
+        <div className="inner-content">
           <h2>
             <span>Our Services</span>
             <br />
@@ -19,7 +20,7 @@ const Services = () => {
       <section id="services-section">
         <AllServices></AllServices>
       </section>
-      <section class="client-section">
+      <section className="client-section">
         <OurClients></OurClients>
       </section>
       <section className="about-us-banner">

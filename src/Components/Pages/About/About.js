@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div>
       <section id="innerBanner">
-        <div class="inner-content">
+        <div className="inner-content">
           <h2>
             <span>About Us</span>
             <br />

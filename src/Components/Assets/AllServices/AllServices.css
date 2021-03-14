@@ -1,21 +1,18 @@
 #services {
-    padding: 60px 0 60px 0;
+  padding: 60px 0 60px 0;
 }
-
-
 .card {
-    align-items: center;
-    justify-content:center;
-    padding: 20px 10px 20px 10px;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px 20px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
 }
 .card-body h4 {
-    color: #444;
-    font-weight: 700;
+  color: #444;
+  font-weight: 700;
 }
 .service-icon {
-    font-size: 60px;
-    color: #278bf2;
+  font-size: 60px;
+  color: #278bf2;
 }
-  

@@ -1,21 +1,22 @@
 #hero {
-  background: url(../../../Images/banner/banner-bg.png) center bottom no-repeat;
+  /* background: url(../../../Images/banner/banner-bg.png) center bottom no-repeat; */
+  background-image: linear-gradient(to bottom right, rgb(61, 61, 250), rgb(13, 156, 84));
+
     background-size: cover;
     position: relative;
-
 }
 #hero-content-area {
-  padding-top: 150px;
-  padding-bottom: 50px;
+   padding-top: 100px;
+  /*padding-bottom: 100px;  */
 }
+.hero-content {
+  color: #fff;
+  }
 /* #hero .hero-banner img {
   width: 100%;
 }
 
-.hero-content {
-color: #fff;
-text-align: left;
-}
+
 #hero .hero-content h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -67,9 +68,9 @@ text-align: left;
 .carousel-item{
   text-align: center;
 }
-.carousel-indicators .active{
+/* .carousel-indicators .active{
   background-color: orange;
 }
 .carousel-indicators .inactive{
   background-color: gray;
-}
+} */

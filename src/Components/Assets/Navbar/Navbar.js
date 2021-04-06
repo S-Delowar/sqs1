@@ -13,6 +13,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
     const [change, setChange] = useState(false);
+    const [active, setActive] = useState(false)
     const changePosition = 100;
   
     let position = useWindowScrollPosition();
@@ -27,9 +28,9 @@ function Navbar() {
     }
   
     let style = {
-      backgroundColor: change ? "#fff" : "transparent",
-      boxShadow:  change ? "2px 1px 1px #33333336" : "none",
-      color: change? "black" : "#fff",
+      backgroundColor: "#fff",
+      boxShadow:"2px 1px 1px #33333336" ,
+      color: "black",
       transition: "400ms ease",
       height: "80px",
       position: "fixed",
@@ -40,7 +41,7 @@ function Navbar() {
     };
 
     let navLinkColor = {
-      color: change? "black" : "#fff",
+      color: active ? "tomato" : "black" ,
       fontWeight: 500,
     }
 

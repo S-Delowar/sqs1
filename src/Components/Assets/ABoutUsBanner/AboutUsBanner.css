@@ -42,6 +42,7 @@
   
   #about .content p {
     line-height: 26px;
+    text-align: left;
   }
   
   #about .content p:last-child {

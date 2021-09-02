@@ -11,19 +11,19 @@ const Address = () => {
         <FontAwesomeIcon icon={faMapMarkedAlt} className="address-icon" />{" "}
         <span className="address">Address </span>
         <br />
-        <p>MN-12 Lincon Street, NewYork 12356, USA</p>
+        <p>28, New Airport, Uttara, Dhaka-1229 </p>
       </div>
       <div class="address-item">
         <FontAwesomeIcon icon={faPhoneAlt} className="address-icon" />
-        <span className="phone"> Phone Number </span>
+        <span className="phone"> Mobile Number </span>
         <br />
-        <p>+880 13100-684566</p>
+        <p>01716685805, 01717667734 </p>
       </div>
       <div class="address-item">
         <FontAwesomeIcon icon={faEnvelope} className="address-icon" />
         <span className="email"> Email </span>
         <br />
-        <p>name@website.com </p>
+        <p>info@iqs-bd.com, maruf.iqs@gmail.com, ishtiak.iqs@gmail.com,</p>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const About = () => {
       <section id="innerBanner">
         <div className="inner-content">
           <h2>
-            <span>About Us</span>
+            <span className="text-white">About Us</span>
             <br />
             We create the opportunities!
           </h2>
@@ -22,19 +22,19 @@ const About = () => {
       <section className="about-us-banner">
         <AboutUsBanner></AboutUsBanner>
       </section>
-      <section className="team-section">
+      {/* <section className="team-section">
         <OurTeam></OurTeam>
-      </section>
-      <section className="clients-section">
+      </section> */}
+      {/* <section className="clients-section">
         <OurClients></OurClients>
-      </section>
+      </section> */}
      
-      <section>
+      {/* <section>
         <Testimonials></Testimonials>
       </section>
       <section>
       <CallToAction></CallToAction>
-      </section>
+      </section> */}
     </div>
   );
 };

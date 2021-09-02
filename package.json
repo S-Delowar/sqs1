@@ -1,5 +1,6 @@
 {
   "name": "iqs-bd",
+  "homepage": "https://iqs-bd.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -11,10 +11,7 @@ const CallToAction = () => {
             <div className="col-lg-9 text-lg-left">
               <h3 className="cta-title">Get Our Service</h3>
               <p className="cta-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolores quae porro consequatur aliquam, incidunt fugiat culpa
-                esse aute nulla cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum.
+                
               </p>
             </div>
             <div className="col-lg-3 cta-btn-container text-center">

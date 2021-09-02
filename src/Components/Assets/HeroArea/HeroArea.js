@@ -17,8 +17,7 @@ const HeroArea = () => {
                 <h3>Welcome To </h3>
                 <h1>Integrated Quality Solutions</h1>
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature.
+                An Emerging SUPPORT SERVICE PROVIDER of Bangladesh...
                 </p>
                 <Link to="/services" class="">
                   <button className="btn btn-banner">Our Service</button>

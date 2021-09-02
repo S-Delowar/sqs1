@@ -9,28 +9,40 @@ import Testimonials from "../../Assets/Testimonials/Testimonials";
 import WhatWeDo from "../../Assets/WhatWeDo/WhatWeDo";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import AllServices from "../../Assets/AllServices/AllServices";
 
 const Home = () => {
   return (
     <div>
       <HeroArea></HeroArea>
+        
         <div id="about" className="wow fadeInUp">
+          <div className="container">
+            <div className="section-header">
+              <h2>About Us</h2>
+
+            </div>
+          </div>
+          <AboutUsBanner></AboutUsBanner>
+        </div>
+      
+        <div id="" className="wow fadeInUp">
           <div className="container">
             <div className="section-header">
               <h2>What We Do</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolores quae porro consequatur aliquam, incidunt eius magni
-                provident, doloribus omnis minus ovident, doloribus omnis minus
-                temporibus perferendis nesciunt..
+                
               </p>
             </div>
           </div>
         </div>
-        <WhatWeDo></WhatWeDo>
-      <AboutUsBanner></AboutUsBanner>
-      <OurClients></OurClients>
-      <Testimonials></Testimonials>
+        {/* <WhatWeDo></WhatWeDo> */}
+        <AllServices></AllServices>
+
+      {/* <OurClients></OurClients>
+      <Testimonials></Testimonials> */}
+      <br />
+      <br />
       <GoogleMap></GoogleMap>
       <CallToAction></CallToAction>
     </div>

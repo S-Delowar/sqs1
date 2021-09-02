@@ -11,9 +11,8 @@ const Contact = () => {
       <section id="innerBanner">
         <div className="inner-content">
           <h2>
-            <span>Get In Touch</span>
+            <span className="text-white">Get In Touch</span>
             <br />
-            We create the opportunities!
           </h2>
         </div>
       </section>
@@ -21,10 +20,7 @@ const Contact = () => {
         <div className="container">
           <div className="section-header">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
-              quae porro consequatur aliquam, incidunt fugiat culpa esse aute
-              nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit
-              export irure minim illum fore
+        
             </p>
           </div>
 

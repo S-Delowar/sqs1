@@ -11,7 +11,7 @@ const Services = () => {
       <section id="innerBanner">
         <div className="inner-content">
           <h2>
-            <span>Our Services</span>
+            <span className="text-white">Our Services</span>
             <br />
             We create the opportunities!
           </h2>
@@ -23,9 +23,9 @@ const Services = () => {
       <section className="client-section">
         <OurClients></OurClients>
       </section>
-      <section className="about-us-banner">
+      {/* <section className="about-us-banner">
         <AboutUsBanner></AboutUsBanner>
-      </section>
+      </section> */}
       <section>
       <CallToAction></CallToAction>
       </section>
